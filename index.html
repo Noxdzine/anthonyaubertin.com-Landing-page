@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>Anthony Aubertin - UI/UX Designer - Paris</title>
+      <meta charset=utf-8 />
+      <link rel="stylesheet" type="text/css" href="css/reset.css" />
+      <link rel="stylesheet" type="text/css" href="css/anim.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+</head>
+<body>
+<div class="fork animated fadeIn"><a href="#"><img src="images/fork.png" /></a></div>
+<div class="wrapper">
+
+  <div class="image animated fadeIn"></div>
+
+  <div class="intro">
+    <ul>
+      <li class="animated bounceDownName">A</li>
+      <li class="animated bounceDownName">n</li>
+      <li class="animated bounceDownName">t</li>
+      <li class="animated bounceDownName">h</li>
+      <li class="animated bounceDownName">o</li>
+      <li class="animated bounceDownName">n</li>
+      <li class="animated bounceDownName">y</li>
+      <li class="animated bounceDownName">A</li>
+      <li class="animated bounceDownName">u</li>
+      <li class="animated bounceDownName">b</li>
+      <li class="animated bounceDownName">e</li>
+      <li class="animated bounceDownName">r</li>
+      <li class="animated bounceDownName">t</li>
+      <li class="animated bounceDownName">i</li>
+      <li class="animated bounceDownName">n</li>
+    </ul>
+    <span class="coming animated fadeInDown">UI/UX Designer</span>
+  </div>
+
+  <div class="about animated">
+    <a href="http://www.twitter.com/Noxdzine/" class="twitter">
+        <img src="images/ico-twitter.png" />Follow me on twitter
+    </a>
+    
+    <span class="dribbble">I'm looking for a fulltime job, check my work on <a href="http://www.dribbble.com/noxdzine/">Dribbble</a><br />then <a href="mailto:hello@anthonyaubertin.com?subject=[anthonyaubertin.com] Work inquiry">hire me!</a>
+    </span>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script type="text/javascript">
+  setTimeout(function() {
+    $("li").removeClass("bounceDownName").addClass("bounceOutDown2");
+    $("span").removeClass("fadeInDown").addClass("fadeOutDown");
+      setTimeout(function() {
+        $(".about").addClass("fadeInDown").css("display","block");
+      }, 2000);
+  }, 4000);
+</script>
+</body>
+</html>
